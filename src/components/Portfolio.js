@@ -18,24 +18,26 @@ export default function Portfolio() {
 
         {/* Project 1: Tour and Travels Website */}
         <div className="portfolio-item">
-          <img src="https://via.placeholder.com/300x200" alt="Tour and Travels Website" />
+          <img src="/tours-travels.jpeg" alt="Tour and Travels Website" />
           <div className="portfolio-info">
             <h3>Tour and Travels Website</h3>
             <p>
-              A responsive travel booking platform using <strong>HTML, CSS, JavaScript, and Java</strong>.
-              Allows users to browse, review, and book tours online—reducing time and improving experience.
+              A dynamic and user-friendly travel booking platform developed using <strong>HTML, CSS, JavaScript, and Core Java</strong>. 
+              This project enables users to explore a wide range of destinations, view images, read detailed itineraries, and make online tour bookings with ease. 
+              It also features an admin panel for managing destinations, packages, and bookings. The design is fully responsive and optimized for all devices, providing a seamless experience for users on mobile, tablet, and desktop.
             </p>
           </div>
         </div>
 
         {/* Project 2: All in One Calculator */}
         <div className="portfolio-item">
-          <img src="https://via.placeholder.com/300x200" alt="All in One Calculator Website" />
+          <img src="/all-in-one-calculator.png" alt="All in One Calculator Website" />
           <div className="portfolio-info">
             <h3>All in One Calculator Website</h3>
             <p>
-              A web application built with <strong>React.js</strong> providing multiple utilities like Age Calculator, BMI, GPA, Currency Converter, Tip Calculator, etc.  
-              Designed for responsiveness and ease of use with modern UI/UX.
+              A modern web application built with <strong>React.js</strong> that provides a comprehensive suite of calculation tools in one place. 
+              It includes utilities such as Age Calculator, BMI Calculator, GPA Calculator, Currency Converter, Tip Calculator, Loan Calculator, and many more. 
+              The app features a clean, intuitive interface with responsive design and real-time calculations. It's ideal for students, professionals, and anyone looking for quick, reliable conversions or calculations directly in the browser.
             </p>
           </div>
         </div>
