@@ -24,9 +24,11 @@ export default function About() {
             fontWeight: 300,
           }}
         >
-          I am a passionate <strong style={{ color: '#fff' }}>Full Stack Web Developer</strong> with expertise in building dynamic, responsive, and visually appealing web applications.
-          I enjoy working with modern technologies like <strong style={{ color: '#149ddd' }}>React.js</strong>, <strong style={{ color: '#149ddd' }}>Java</strong>, and <strong style={{ color: '#149ddd' }}>Odoo</strong>.
-          My goal is to deliver high-quality software that solves real-world problems and makes a positive impact.
+          I am a dedicated and passionate <strong style={{ color: '#fff' }}>Full Stack Web Developer</strong> with a strong background in creating efficient, scalable, and user-friendly web applications. My expertise lies in both frontend and backend development, allowing me to take a holistic approach to solving complex problems.
+          <br /><br />
+          I have hands-on experience with modern technologies like <strong style={{ color: '#149ddd' }}>React.js</strong> for building dynamic UIs, and backend technologies such as <strong style={{ color: '#149ddd' }}>Java (Core & Advance)</strong>, <strong style={{ color: '#149ddd' }}>JSP</strong>, <strong style={{ color: '#149ddd' }}>Servlet</strong>, <strong style={{ color: '#149ddd' }}>Hibernate</strong>, and <strong style={{ color: '#149ddd' }}>Spring</strong> for building robust server-side logic. I’m also well-versed in ERP development as an <strong style={{ color: '#149ddd' }}>Odoo Developer</strong>, where I build customized solutions for businesses to streamline operations.
+          <br /><br />
+          I enjoy learning new technologies, collaborating on innovative projects, and continuously improving my skills. My mission is to develop impactful digital solutions that provide real value to users and businesses alike.
         </p>
       </div>
     </section>

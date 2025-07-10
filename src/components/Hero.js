@@ -29,9 +29,15 @@ export default function Hero() {
         }}
       />
       <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Hi, I'm Naman</h1>
+
+      {/* Description */}
+     
+
+      {/* Skills */}
       <p style={{ fontSize: '1.2rem', textAlign: 'center', maxWidth: '700px', lineHeight: '1.6' }}>
         HTML | CSS | JavaScript | React.js | Java (Core & Advance) | JSP | Servlet | JDBC | Hibernate | Spring | Odoo Developer
       </p>
+
       <a href="#portfolio" className="btn" style={{ marginTop: '30px' }}>
         See My Work
       </a>
