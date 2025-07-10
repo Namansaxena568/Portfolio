@@ -90,7 +90,7 @@ export default function Resume() {
           <div className="timeline-icon">🛠️</div>
           <div className="timeline-content">
             <h3>Tech Stack</h3>
-            <p><strong>Languages:</strong> Java (Core)</p>
+            <p><strong>Languages:</strong> Java (Core & Advance)</p>
             <p><strong>Database:</strong> MySQL</p>
             <p><strong>Web:</strong> HTML, CSS, JavaScript</p>
           </div>
