@@ -88,13 +88,15 @@ export default function Contact() {
         </button>
       </form>
 
-      {/* ✅ Social Media Icons (GitHub Removed) */}
+      {/* ✅ Icons with same background as section + hover highlight */}
       <div style={{ marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
         <a
           href="https://linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
           style={iconStyle}
+          onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#149ddd'}
+          onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#0f1d32'}
         >
           <FaLinkedin size={24} /> LinkedIn
         </a>
@@ -103,6 +105,8 @@ export default function Contact() {
           target="_blank"
           rel="noopener noreferrer"
           style={iconStyle}
+          onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#149ddd'}
+          onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#0f1d32'}
         >
           <FaWhatsapp size={24} /> WhatsApp
         </a>
@@ -128,11 +132,12 @@ const iconStyle = {
   display: 'flex',
   alignItems: 'center',
   gap: '8px',
-  backgroundColor: '#149ddd',
+  backgroundColor: '#0f1d32', // same as section bg
   color: '#fff',
   padding: '10px 20px',
   borderRadius: '5px',
   textDecoration: 'none',
   fontWeight: 'bold',
-  transition: 'background 0.3s ease',
+  transition: 'all 0.3s ease',
+  cursor: 'pointer',
 };
