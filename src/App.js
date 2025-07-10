@@ -8,20 +8,26 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Header from "./components/Header";
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <Hero />
-      <About />
-      <Skills />
-      <Resume />
-      <Portfolio />
-      <Contact />
-      <Footer />
-      <Header/>
+    <div className="main-container">
+      {/* Sidebar */}
+      <Header />
+
+      {/* Page Content */}
+      <div className="content">
+        <Hero />
+        <About />
+        <Skills />
+        <Resume />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
+
 export default App;
