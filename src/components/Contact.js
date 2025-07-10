@@ -101,7 +101,7 @@ export default function Contact() {
           <FaLinkedin size={24} /> LinkedIn
         </a>
         <a
-          href="https://wa.me/91xxxxxxxxxx"
+          href="https://wa.me/918171433987"
           target="_blank"
           rel="noopener noreferrer"
           style={iconStyle}
