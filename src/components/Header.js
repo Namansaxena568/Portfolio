@@ -27,13 +27,13 @@ export default function Header() {
       </header>
 
       {/* Hamburger Toggle Button (Only visible on mobile) */}
-      <button
-        className="hamburger"
-        onClick={() => setIsOpen(!isOpen)}
-        aria-label="Toggle Sidebar"
-      >
-        ☰
-      </button>
+     <button
+  className="hamburger"
+  onClick={() => setIsOpen(!isOpen)}
+  aria-label="Toggle Sidebar"
+>
+  {isOpen ? '✖' : '☰'}
+</button>
     </>
   );
 }

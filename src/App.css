@@ -463,30 +463,35 @@ textarea {
 
 /* HAMBURGER - hidden on desktop */
 .hamburger {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+  background: transparent;
+  border: none;
+  font-size: 32px;
+  color: #ffffff; /* You can change this to black (#000) if background is light */
+  cursor: pointer;
+  transition: color 0.3s ease;
+  outline: none;
   display: none;
 }
 
-/* ✅ MOBILE VIEW STYLES */
-@media screen and (max-width: 768px) {
-  .sidebar {
+.hamburger:hover {
+  color: #ff5252; /* Optional: red on hover */
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .sidebar.closed {
     transform: translateX(-100%);
   }
 
   .sidebar.open {
     transform: translateX(0);
   }
-
-  .hamburger {
-    display: block;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background: #149ddd;
-    color: white;
-    font-size: 24px;
-    border: none;
-    padding: 10px 14px;
-    border-radius: 5px;
-    z-index: 1101;
-  }
 }
+
